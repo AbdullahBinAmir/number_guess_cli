@@ -1,0 +1,35 @@
+{
+  "name": "binamir-numberguessgame",
+  "version": "1.0.0",
+  "description": "typescript game cli",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": "./src/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdullahBinAmir/number_guess_cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdullahBinAmir/number_guess_cli.git/issues"
+  },
+  "homepage": "https://github.com/AbdullahBinAmir/number_guess_cli.git#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.10",
+    "node-banner": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.5.8"
+  }
+}
